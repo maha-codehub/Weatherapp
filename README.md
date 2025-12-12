@@ -32,7 +32,15 @@ Screenshots from android pixel_6 emulator :
 
 
 
+
 <img width="518" height="727" alt="Screenshot (108)" src="https://github.com/user-attachments/assets/81631a93-1d79-4899-9caa-5f26579b2191" />
+
+
+
+
+
+
+
 
 
 
