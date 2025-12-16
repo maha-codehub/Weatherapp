@@ -52,31 +52,31 @@ Lottie — Weather animations
 
 1. Clone the repository
 
-git clone https://github.com/maha-codehub/Weatherapp.git
+  git clone https://github.com/maha-    codehub/Weatherapp.git
 
-cd weather-app
+  cd weatherapp
 
 
 2. Install dependencies
 
-flutter pub get
+   flutter pub get
 
 
 3. Add OpenWeather API Key
 
-Create an account at OpenWeather
+   Create an account at OpenWeather
 
-Get your API key
+   Get your API key
 
-Add it inside your constants file or directly in the API service:
+   Add it inside your constants file.    or directly in the API service:
 
-const String apiKey = "YOUR_API_KEY";
+   const String apiKey =    "YOUR_API_KEY";
 
 
 
 4. Run the app
 
-flutter run
+   flutter run
 
 
 
