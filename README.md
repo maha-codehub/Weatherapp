@@ -48,35 +48,49 @@ Lottie — Weather animations
 </p>
 ---
 
-⚙️ How to Run the Project
 
-1. Clone the repository
+⚙️ Setup & Installation
 
+1️⃣ Clone the Repository
 
-git clone https://github.com/maha-    codehub/Weatherapp.git
-
- 
+git clone https://github.com/maha-codehub/Weatherapp.git
 cd weatherapp
 
 
-2. Install dependencies
+---
+
+2️⃣ Install Dependencies
 
 flutter pub get
 
 
-3. Add OpenWeather API Key
+---
 
-Create an account at OpenWeather
+3️⃣ Configure OpenWeather API Key
 
-Get your API key
+1. Create an account on OpenWeather
 
-Add it inside your constants file.    or directly in the API service:
 
-const String apiKey =    "YOUR_APYOUR_API_KE
+2. Generate your API key
 
-4. Run the app
+
+3. Add the API key in your constants file or directly inside the API service file:
+
+
+
+const String apiKey = "YOUR_API_KEY";
+
+> ⚠️ Make sure not to expose your API key in public repositories.
+
+
+
+
+---
+
+4️⃣ Run the Application
 
 flutter run
+
 
 
 
@@ -86,8 +100,12 @@ flutter run
 📦 Dependencies Used
 
 http: ^1.2.0
+
+
 geolocator: ^10.1.0
+
 geocoding: ^2.1.0
+
 lottie: ^3.1.0
 
 
