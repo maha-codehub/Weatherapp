@@ -1,18 +1,25 @@
-Weather App (Flutter + OpenWeather API)
+🌤️ Weather App (Flutter + OpenWeather API)
 
-This is a simple Flutter application that displays real-time weather information using the OpenWeather API. The app can detect the user's current location, fetch the weather details, and show temperature, weather conditions, humidity, and other data. The UI is clean and easy to use.
+A simple and elegant Flutter Weather Application that displays real-time weather information using the OpenWeather API. The app detects the user’s current location and shows live weather details such as temperature, humidity, wind speed, and weather conditions with Lottie animations for a better user experience.
 
-🚀Features
 
-Current Location Weather — Fetches weather using device GPS.
+---
 
-Real-time Weather Data — Uses OpenWeather REST API.
+🚀 Features
 
-Clean UI — Simple and beautiful interface.
+📍 Current Location Weather — Fetches weather data using device GPS
 
- Weather Details — Temperature, Humidity, Wind Speed, Condition, etc.
+🌐 Real-time Weather Data — Powered by OpenWeather REST API
 
-Lottie Animations  — Weather-based animations.
+🎨 Clean UI — Simple, modern, and user-friendly interface
+
+🌡️ Weather Details — Temperature, humidity, wind speed, condition, and more
+
+🎥 Lottie Animations — Weather-based animated visuals
+
+
+
+---
 
 🛠️ Tech Stack
 
@@ -20,62 +27,90 @@ Flutter (Dart)
 
 OpenWeather API
 
-HTTP + Geolocator + Geocoding Packages
+HTTP Package — API requests
 
-Lottie animations 
+Geolocator — Get device location
 
-Screenshots from android pixel_6 emulator :
+Geocoding — Convert coordinates to city name
 
-<img width="470" height="809" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/2e03d2c8-d96e-49eb-8b90-0c92ab3f663a" />
-
-
+Lottie — Weather animations
 
 
 
+---
+
+📸 Screenshots (Android – Pixel 6 Emulator)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2e03d2c8-d96e-49eb-8b90-0c92ab3f663a" width="250" />
+  <img src="https://github.com/user-attachments/assets/2b1b71a0-64ff-40aa-86b5-7f6c33abf1e8" width="250" />
+  <img src="https://github.com/user-attachments/assets/40ee9dc0-f2d8-40fd-990b-afeaba22191a" width="250" />
+</p>
+---
+
+⚙️ How to Run the Project
+
+1. Clone the repository
+
+git clone https://github.com/your-username/weather-app-flutter.git
+cd weather-app-flutter
+
+
+2. Install dependencies
+
+flutter pub get
+
+
+3. Add OpenWeather API Key
+
+Create an account at OpenWeather
+
+Get your API key
+
+Add it inside your constants file or directly in the API service:
+
+const String apiKey = "YOUR_API_KEY";
 
 
 
+4. Run the app
 
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="482" height="687" alt="Screenshot (108)" src="https://github.com/user-attachments/assets/2b1b71a0-64ff-40aa-86b5-7f6c33abf1e8" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+flutter run
 
 
 
 
+---
+
+📦 Dependencies Used
+
+http: ^1.2.0
+geolocator: ^10.1.0
+geocoding: ^2.1.0
+lottie: ^3.1.0
+
+
+---
+
+🔮 Future Enhancements
+
+🌙 Dark mode support
+
+🔍 Search weather by city name
+
+📆 7-day weather forecast
+
+🔔 Weather alerts & notifications
 
 
 
-<img width="477" height="788" alt="Screenshot (110)" src="https://github.com/user-attachments/assets/40ee9dc0-f2d8-40fd-990b-afeaba22191a" />
+---
+
+📄 License
+
+This project is licensed under the MIT License — feel free to use and modify it.
+
+
+---
+
+⭐ If you like this project, don’t forget to star the repository!
