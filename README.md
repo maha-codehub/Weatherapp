@@ -54,6 +54,10 @@ Lottie — Weather animations
 1️⃣ Clone the Repository
 
 git clone https://github.com/maha-codehub/Weatherapp.git
+
+
+
+
 cd weatherapp
 
 
