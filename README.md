@@ -52,8 +52,9 @@ Lottie — Weather animations
 
 1. Clone the repository
 
-git clone https://github.com/your-username/weather-app-flutter.git
-cd weather-app-flutter
+git clone https://github.com/maha-codehub/Weatherapp.git
+
+cd weather-app
 
 
 2. Install dependencies
